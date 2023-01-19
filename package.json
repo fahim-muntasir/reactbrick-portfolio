@@ -6,12 +6,8 @@
     "author": "",
     "scripts": {
         "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "export": "yarn run build && next export && mv out _static"
-    },
-    "engines": {
-        "node": "14.x"
+        "build": "next build && next export",
+        "start": "next start"
     },
     "dependencies": {
         "next": "^13.1.0",
